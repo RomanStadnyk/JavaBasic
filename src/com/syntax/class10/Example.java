@@ -13,6 +13,7 @@ public class Example {
 		int size=scan.nextInt();
 		
 		String[] cars=new String[size];
+		
 		 for (int i=0; i<size; i++) {
 			 System.out.println("Enter your cars:");
 			 cars[i]=scan.next();
