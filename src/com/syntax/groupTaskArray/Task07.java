@@ -11,7 +11,7 @@ public class Task07 {
 		System.out.println("Enter the number, please:");
 		int num=scan.nextInt();
 		
-		if(num==1 || num==2 || num%2!=0)
+		if(num==2 || num%2!=0)
 				{
 			System.out.println("This number is prime");
 				} else {
