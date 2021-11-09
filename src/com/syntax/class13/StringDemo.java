@@ -1,0 +1,33 @@
+package com.syntax.class13;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String userName="Henok";
+		String pass="Pass123";
+		String passConf="Pass123";
+		
+		if(!(userName.isEmpty() || pass.isEmpty())) {
+			if (pass.length()>=8) {
+				if(!pass.contains(userName)) {
+					if(pass.equals(passConf)) {
+						System.out.println("Your username and password has been created"); 
+					}
+					
+				}else {
+					System.out.println("Password cannot contain username");
+				}
+				
+			}else {
+				System.out.println("Password is too short");
+			}
+			
+		}else {
+			System.out.println("Username and Password cannot be empty");
+		}
+	
+	}
+
+}
