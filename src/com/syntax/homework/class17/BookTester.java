@@ -8,6 +8,8 @@ public class BookTester {
 		Book book1=new Book("Adventures of Huckleberry Finn", " Mark Twain", 145);
 		
 		Book book2=new Book(23);
+		
+		
 	}
 
 }
